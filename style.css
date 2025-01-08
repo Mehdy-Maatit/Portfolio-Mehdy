@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    
 }
 
 /* Général */
@@ -7,6 +8,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #333;
+    
 }
 
 h1, h2 {
@@ -49,64 +51,12 @@ header {
     margin-left: +500px;
 }
 
-.nav-links.show {
-    display: flex; /* Affichez-les lorsqu'un bouton est activé */
-    position: absolute;
-    background-color: #333;
-    top: 50px;
-    left: 0;
-    right: 0;
-    padding: 20px;
-}
-
-
-.logo {
-    display: flex; /* Permet de disposer les éléments en ligne */
-    align-items: center; /* Aligne verticalement au centre */
-    gap: 10px; /* Espace entre les éléments */
-}
-
-.logo a svg {
-    width: 24px; /* Taille des icônes */
-    height: 24px;
-    color: #ff6f61; /* Couleur par défaut */
-    transition: transform 0.3s ease, color 0.3s ease; /* Animation */
-    cursor: pointer;
-}
-
-.logo a svg:hover {
-    transform: scale(5); /* Agrandissement au survol */
-    color: #ff6f61; /* Couleur différente au survol */
-}
-
-/* Animation d'apparition */
-.logo a svg {
-    animation: fade-in 0.5s ease forwards;
-    opacity: 0;
-}
-
-@keyframes fade-in {
-    0% {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-/* Ajout d’un effet d’ombre au survol */
-.logo a svg:hover {
-    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
-}
-
-
 
 .top-nav .logo {
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
-    margin-left: -500px;
+    margin-left: -550px;
 }
 
 .top-nav .logo span {
@@ -124,10 +74,9 @@ header {
 .top-nav .nav-links li a {
     text-decoration: none;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     transition: color 0.3s ease;
-    margin-left: 5%;
 }
 
 .top-nav .nav-links li a:hover {
@@ -194,15 +143,10 @@ main h2 {
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    a {
-        text-decoration: none;
-    }
 }
 
 .project-card img {
-    max-width: 100%;
-    border-radius: 10px;
+    width: 75%;
 }
 
 .project-card:hover {
