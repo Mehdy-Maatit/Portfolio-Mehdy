@@ -6,15 +6,30 @@
     <meta name="description" content="Portfolio de Mehdy, Développeur web et Designer. Découvrez mes projets et mes compétences.">
     <title>Portfolio - Mehdy</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </head>
-<body>
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">...</div>
+  </div>
+
+  <body>
     <!-- HEADER -->
     <header>
         <nav class="top-nav">
             <div class="nav-container">
-                <div class="logo">Mehdy Maatit<span>.</span></div>
-                <ul class="nav-links">
+                <div class="logo">
+                    Mehdy MAATIT<span>.</span>
+                </div>
+                
+                
+                  
+                  <ul class="nav-links">
                     <li><a href="#about">Présentation</a></li>
                     <li><a href="#projects">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -24,27 +39,88 @@
         </nav>
         <div class="hero-section">
             <video autoplay muted loop playsinline class="background-video">
-                <source src="image/video.mp4" type="video/mp4">
+                <source src="video.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas les vidéos HTML5.
             </video>
             <div class="hero-content">
                 <h1>Bienvenue sur mon Portfolio</h1>
-                <p>Explorez mes projets et compétences en développement web et design.</p>
+                <p>Découvrez mes projets et mes compétences.</p>
             </div>
         </div>
     </header>
 
     <!-- MAIN SECTION -->
     <main>
-        <section class="main-section" id="about">
-            <h2>Présentation</h2>
-            <p>
-                Je m'appelle Mehdy et je suis passionné par le développement web depuis mon plus jeune âge. Je me spécialise
-                dans la création de solutions innovantes et modernes, adaptées aux besoins des utilisateurs.
-            </p>
-        </section>
+       
+         <section class="main-section" id="about">
+           
+         </div>
+         <!-- Texte de présentation -->
+         <div class="about-text">
+             <h2>Présentation</h2>
+             <div style="display: flex;">
 
-        <section class="main-veille" id="veille">
+
+             
+             <div class="about-image">
+                <img src="images/luffy.jpg" alt="Photo de Mehdy" class="profile-photo">
+            </div>
+             <p>
+                 Je m'appelle Mehdy Maatit, actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisations), 
+                 option SLAM (Solutions Logicielles et Applications Métier). Passionné par le développement web et les nouvelles technologies, 
+                 je m'investis pleinement dans l'apprentissage et la création de solutions modernes adaptées aux besoins des utilisateurs.
+             </p><br />
+             </div>
+             </div>
+             <h3>Mon Parcours</h3>   
+             <ul class="timeline">
+                 <li>
+                     <strong>2022-2024 :</strong> BTS SIO Option SLAM au Lycée Pierre Corneille (Celle-Saint-Cloud).  
+                     <p>Apprentissage des bases solides en développement logiciel, conception de bases de données et gestion de projets informatiques.</p><br />
+                 </li>
+                 <li>
+                     <strong>2020-2023 :</strong> Baccalauréat Général options mathématique et S.E.S(siences économiques et sociales) .  
+                     <p>Formation pluridisciplinaire centrée sur .</p><br />
+                 </li>
+                 <li>
+                     <strong>2019 :</strong> Stage découverte en entreprise (développement web).  
+                     <p>Premiers pas dans la programmation avec la création de petites applications web.</p>
+                 </li>
+             </ul>
+             <p>
+                 À travers mon parcours, j'ai acquis des compétences clés telles que la maîtrise des langages de programmation (HTML, CSS, JavaScript, Python), 
+                 l'analyse des besoins des utilisateurs, et la capacité à résoudre des problèmes complexes. 
+                 Mon objectif est de continuer à progresser et de contribuer à des projets innovants.
+             </p>
+         </div>
+     
+        </section>
+        <br />
+
+        
+        <div class="bts-sio">
+            <h3>Qu'est-ce que le BTS SIO ?</h3>
+            <p>
+                Le BTS SIO est une formation en informatique qui prépare les étudiants à devenir des professionnels qualifiés dans les métiers liés aux systèmes d’information. 
+                Il forme à la gestion, au développement, et à la maintenance des systèmes d’information au sein des entreprises.
+            </p>
+            <h4>Les Deux Options du BTS SIO</h4>
+            <ul>
+                <li>
+                    <strong>SLAM</strong> : Solutions Logicielles et Applications Métier. Cette option se concentre sur le développement d'applications, la conception de logiciels, et la programmation. 
+                    Les étudiants apprennent à créer des solutions adaptées aux besoins des utilisateurs.
+                </li>
+                <li>
+                    <strong>SISR</strong> : Solutions d'Infrastructure, Systèmes et Réseaux. Cette option forme aux métiers de l'administration réseau, de la gestion des infrastructures et de la sécurité informatique.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+        
+        
+    
+    <section class="main-veille" id="veille">
             <h2>Qu'est-ce qu'une veille technologique</h2>
             <p>
                 La veille technologique est un processus continu d'observation, de collecte et d'analyse des nouveautés et des tendances dans le domaine des technologies. 
@@ -56,29 +132,48 @@
         </section>
 
         <section class="projects" id="projects">
+            
             <h2>Projets</h2>
+            <a href="file:///C:/Users/mehdy/Desktop/Portfolio/Portfolio-Mehdy-main/Portfolio-Mehdy-main/projets/Ronaldo.html" target="_self" rel="noopener noreferrer">
+                <div class="project-card" style="cursor: pointer;">
+                    <img src="ronaldo.jpeg" alt="Projet 1">
+                    <h3>Application Web</h3>
+                    <p>Une application dédiée à Cristiano Ronaldo.</p>
+                </div>
+            </a>
+            
+
+            <a href="file:///C:/Users/mehdy/Desktop/Portfolio/Portfolio-Mehdy-main/Portfolio-Mehdy-main/projets/Terraform.html" target="_blank" rel="noopener noreferrer">
+                <div class="project-card">
+                    <img src="images/terraform.png"  alt="Projet 2">
+                    <h3>Automatisation avec Terraform</h3>
+                    <p>Automatisation du séploiment de machines virtuelles avec Terraform.</p>
+                </div>
+            </a>
+        
+            <a href="file:///C:/Users/mehdy/Desktop/Portfolio/Portfolio-Mehdy-main/Portfolio-Mehdy-main/projets/Gafana.html" target="_blank" rel="noopener noreferrer">
             <div class="project-card">
-                <img src="image/Grafana_logo.svg.png" alt="Projet 1">
-                <h3>Grafana</h3>
-                <p>Visualisation graphique de données.</p>
-            </div>
-            <div class="project-card">
-                <img src="image/terraform.png" alt="Projet 2">
-                <h3>Site E-commerce</h3>
-                <p>Un site de vente en ligne avec une interface intuitive et un back-end robuste.</p>
-            </div>
-            <div class="project-card">
-                <img src="image-projet3.jpg" alt="Projet 3">
-                <h3>Blog Personnel</h3>
-                <p>Un blog conçu pour partager mes idées et articles sur divers sujets passionnants.</p>
+                <img src="images/grafana logo.webp" alt="Projet 3">
+                <h3>Visualisation de données</h3>
+                <p>Visualiser graphiquement les données d'une machine virtuelle avec Grafana.</p>
             </div>
         </section>
+
     </main>
 
     <!-- FOOTER -->
     <footer id="contact">
         <h2>Contact</h2>
-        <p>© 2024 Mehdy MAATIT. Tous droits réservés. | <a href="mailto:mehdymaatit3@gmail.com">Contactez-moi</a></p>
+        <p>© 2024 Mehdy MAATIT. Tous droits réservés. | <a href="mailto:mehdymaatit3@gmail.com">Contactez-moi</a><a href="https://www.linkedin.com/in/mehdy-maatit-a1b60b28a/" target="_blank" rel="noopener noreferrer" aria-label="Lien vers mon profil LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+        </a>
+        <a href="https://github.com/Mehdy-Maatit" target="_blank" rel="noopener noreferrer" aria-label="Lien vers mon profil LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+        </svg>
+        </a></p>
     </footer>
 </body>
 </html>
